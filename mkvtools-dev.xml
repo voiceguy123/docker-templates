@@ -30,4 +30,5 @@
   <Config Name="BD Series Storage" Target="/storage/Media_BD_Series" Default="/mnt/user/Media_BD_Series/" Mode="rw" Description="BD Series MKV storage location" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/Media_BD_Series/</Config>
   <Config Name="DVD Series Storage" Target="/storage/Media_DVD_Series" Default="/mnt/user/Media_DVD_Series/" Mode="rw" Description="DVD Series MKV storage location" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/Media_DVD_Series/</Config>
   <Config Name="SSH Port" Target="22" Default="2222" Mode="tcp" Description="Port used for SSH" Type="Port" Display="always" Required="true" Mask="false">2222</Config>
+  <Config Name="SSH Port" Target="22" Default="2222" Mode="tcp" Description="Port used for SSH" Type="Port" Display="always" Required="true" Mask="false">2222</Config>
 </Container>
