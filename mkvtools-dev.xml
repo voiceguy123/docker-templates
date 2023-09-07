@@ -8,16 +8,16 @@
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Support/>
-  <Project>https://github.com/voiceguy123/MkvTools</Project>
+  <Project>https://github.com/voiceguy123/MkvTools/tree/Dev</Project>
   <Overview>MkvTools is a collection of scripts used to manage and maintain automated Handbrake encoding and moving the files to plex after updating files using mkvtoolnix.</Overview>
-  <Category/>
+  <Category>MediaApp:Video</Category>
   <WebUI/>
   <TemplateURL/>
   <Icon/>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1694124487</DateInstalled>
+  <DateInstalled>1694124868</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
