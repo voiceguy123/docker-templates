@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>MkvTools</Name>
+  <Repository>voiceguy123/mkvtools</Repository>
+  <Registry>https://hub.docker.com/r/voiceguy123/mkvtools</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/voiceguy123/MkvTools</Project>
+  <Overview>MkvTools is a collection of scripts used to manage and maintain automated Handbrake encoding and moving the files to plex after updating files using mkvtoolnix.</Overview>
+  <Category/>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon/>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1694057742</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Handbrake Root folder" Target="/storage/Handbrake" Default="/mnt/user/Handbrake/" Mode="rw" Description="Folder containing Handbrake Output and Rips folders" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/Handbrake/</Config>
+  <Config Name="Handbrake Config Directory" Target="/storage/Handbrake_cfg" Default="/mnt/user/appdata/handbrake/" Mode="ro" Description="Folder where the handbrake configuration is located" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/handbrake/</Config>
+  <Config Name="Converted Rips" Target="/storage/Converted_Rips" Default="/mnt/user/Converted_Rips/" Mode="rw" Description="Folder where converted MKV rips are stored; with subfolders for DVD, BD and UHD" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/Converted_Rips/</Config>
+  <Config Name="BD Movie Storage" Target="/storage/Media_BD_Movies" Default="/mnt/user/Media_BD_Movies/" Mode="rw" Description="BD Movie MKV storage location" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/Media_BD_Movies/</Config>
+  <Config Name="DVD Movie Storage" Target="/storage/Media_DVD_Movies" Default="/mnt/user/Media_DVD_Movies/" Mode="rw" Description="DVD Movie MKV storage location" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/Media_DVD_Movies/</Config>
+  <Config Name="UHD Movie Storage" Target="/storage/Media_UHD_Movies" Default="/mnt/user/Media_UHD_Movies/" Mode="rw" Description="UHD Movie MKV storage location" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/Media_UHD_Movies/</Config>
+  <Config Name="BD Series Storage" Target="/storage/Media_BD_Series" Default="/mnt/user/Media_BD_Series/" Mode="rw" Description="BD Series MKV storage location" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/Media_BD_Series/</Config>
+  <Config Name="DVD Series Storage" Target="/storage/Media_DVD_Series" Default="/mnt/user/Media_DVD_Series/" Mode="rw" Description="DVD Series MKV storage location" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/Media_DVD_Series/</Config>
+</Container>
